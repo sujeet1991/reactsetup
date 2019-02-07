@@ -4,10 +4,10 @@ import Main from './Main/main';
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
+      <div className="container">
       <Main/>
        
-      </React.Fragment>
+      </div>
    );
   }
 }

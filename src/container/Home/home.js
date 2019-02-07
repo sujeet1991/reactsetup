@@ -4,9 +4,9 @@ import About from '../../component/about/about';
 class home extends Component {
   render() {
     return (
-      <div>
+      <React.Fragment>
         <About/>
-      </div>
+      </React.Fragment>
     )
   }
 }

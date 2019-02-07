@@ -8,12 +8,12 @@ import Contact from '../../component/contact/contact';
     return (
       <div>
         <ul>
-            <li><Link to="/">About</Link></li>
-            <li><Link to="/Contact">Contact</Link></li>
+            <li ><Link to="/" className="btn btn-primary">About</Link></li>
+          
         </ul>
         <Switch>
             <Route path="/" exact component={Home}/>
-            <Route path="/Contact" exact component={Contact}/>
+            <Route path="/Contact/:id" exact component={Contact}/>
 
         </Switch>
       </div>
